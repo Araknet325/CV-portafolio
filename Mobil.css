@@ -1,0 +1,117 @@
+@media only screen and (max-device-width: 450px) {
+  button {
+    height: 80px;
+    font-size: 20px;
+
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  h1 {
+    text-align: center;
+  }
+  h2 {
+    line-height: 68px;
+    font-size: 64px;
+  }
+
+  .footer-content {
+    width: 100%;
+  }
+
+  .hero-info {
+    width: 100%;
+    margin-top: 24px;
+  }
+
+  .barra-navegacion {
+    width: 100%;
+    margin-top: 24px;
+  }
+
+  .content-container {
+    width: 94vw;
+    max-width: 94vw;
+  }
+
+  .hero-info-imagen {
+    width: 350px;
+  }
+  .ability-card-container {
+    row-gap: 60px;
+    justify-content: space-between;
+    grid-template-columns: auto auto;
+    margin-top: 140px;
+    width: 100%;
+  }
+  .section-experiences-cards {
+    width: 90vw;
+  }
+  .section-portafolio-grid {
+    row-gap: 36px;
+    grid-template-columns: auto;
+    margin-top: 24px;
+  }
+  .section-hero {
+    height: auto;
+    padding-bottom: 48px;
+  }
+  .section-abilities {
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .hero-info {
+    width: 100%;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    padding-top: 156px;
+  }
+  .links-navegacion {
+    display: none;
+  }
+  .titulo-navegacion {
+    font-size: 32px;
+  }
+  .hero-info-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 24px;
+  }
+  .hero-info-title {
+    font-size: 56px;
+    margin-top: 12px;
+  }
+  .hero-info-subtitle {
+    font-size: 32px;
+    line-height: 36px;
+    max-width: 70%;
+    margin-bottom: 50px;
+  }
+  .hero-info-icons-img {
+    width: 56px;
+    height: 56px;
+  }
+  .hero-info-iconis-container {
+    margin-top: 40px;
+    width: 70%;
+  }
+  .ability-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 42vw;
+    height: auto;
+    padding-top: 24px;
+  }
+  h5 {
+    font-size: 36px;
+  }
+  p {
+    font-size: 24px;
+  }
+}
